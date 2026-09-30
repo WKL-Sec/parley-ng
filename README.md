@@ -4,6 +4,13 @@ This is a minimal implementation of the "Tree of Attacks (TAP): Jailbreaking Bla
 
 [Using AI to Automatically Jailbreak GPT-4 and Other LLMs in Under a Minute](https://www.robustintelligence.com/blog-posts/using-ai-to-automatically-jailbreak-gpt-4-and-other-llms-in-under-a-minute)
 
+# Improvements
+
+The following attack techniques can be applied to the attack chain without increasing the attack complexity:
+
+- Special Token Injection
+- Response Prefill attack
+
 # Design
 
 - [x] Clean, expand, and restructure all the system prompts
