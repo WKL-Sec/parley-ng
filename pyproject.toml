@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "parley"
-version = "0.1.0"
+name = "parley-ng"
+version = "0.1.1"
 description = ""
-authors = ["Nick Landers <nick@dreadnode.io>"]
+authors = ["Nick Landers <nick@dreadnode.io>", "Kleiton Kurti" <sales@whiteknightlabs.com>]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -10,7 +10,7 @@ python = "^3.10"
 openai = "^1.5.0"
 together = "^0.2.10"
 mistralai = "^0.0.8"
-
+huggingface-hub = "^0.24.0"
 
 [build-system]
 requires = ["poetry-core"]

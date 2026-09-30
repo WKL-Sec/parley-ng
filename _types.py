@@ -27,6 +27,7 @@ class TreeNode(BaseModel):
     response: t.Optional[str]
     on_topic: t.Optional[bool]
     score: t.Optional[int]
+    pruned: t.Optional[bool]
 
 
 class Parameters(BaseModel):
